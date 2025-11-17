@@ -17,7 +17,7 @@ if (!rootElement) {
 createRoot(rootElement).render(
   <StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/BarockProm">
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/career" element={<Career />} />
